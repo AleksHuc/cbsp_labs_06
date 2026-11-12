@@ -1,0 +1,45 @@
+# Maven build output and generated MIDI/diagnostics
+target/
+/output/
+*.class
+*.log
+
+# Maven-generated metadata
+.flattened-pom.xml
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+release.properties
+
+# Distribution archives
+/dist/
+/*.zip
+
+# Local IDE configuration
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Local agent configuration and credentials
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Editor backups and operating-system files
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+.DS_Store
+Thumbs.db
+Desktop.ini
